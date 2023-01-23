@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="./src/image/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Dead Space</title>
+</head>
+<body>
+    <div class="imagem-fundo">
+        <img class="imagem" src="./src/image/dead-space-backgroud.jpg" alt="fundo">
+    </div>
+
+    <header class="cabecalho">
+        <img class= "logo" src="./src/image/dead-space-logo.png" alt="logo do dead space ">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="titulo" src="./src/image/dead-space-titulo.png" alt="dead space titulo ">
+
+            <p class="descricao">
+                O engenheiro Issac Clarke luta contra uma infestação alienígena que transforma seres humanos em monstros chamados "Necromorph", a bordo de uma nave de mineração espacial chamada "USG Ishimura".
+            </p>
+
+            <button class="botao-trailer">veja o trailer</button>
+        </div>
+        
+        <div class="modal ">
+            <div class="conteudo-modal">
+                <spam class="fechar-modal">X</spam>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ctQl9wa3ydE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <script src="./src/js/index.js"></script>
+    </main>
+</body>
+</html>
